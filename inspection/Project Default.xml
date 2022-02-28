@@ -1,0 +1,48 @@
+<profile version="1.0">
+  <option name="myName" value="Project Default" />
+  <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <searchConfiguration name="Options de chargement incompatible" uuid="aa39f935-cc2e-3b27-8b7e-7797cde1c929" order="2" text="load($aCharger$, $loadOptionInutile$, $loadOption0$, $loadOptionInutile$, $loadOption1$, $loadOptionInutile$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="aCharger" within="" contains="" />
+      <constraint name="loadOptionInutile" minCount="0" within="" contains="" />
+      <constraint name="loadOption1" regexp=".*Setof.*" within="" contains="" />
+      <constraint name="loadOption0" regexp=".*reload.*" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="Options de chargement incompatible" uuid="aa39f935-cc2e-3b27-8b7e-7797cde1c929" description="Vérifier les valeurs autorisées.&#10;Pour rappel : &#10;&#10;reload &lt;&gt; setOf&#10;withLoadType &lt;&gt; setOf&#10;withLoadType &lt;&gt; light" problemDescriptor="Options de chargement incompatible" text="load($aCharger$, $loadOptionInutile$, $loadOption0$, $loadOptionInutile$, $loadOption1$, $loadOptionInutile$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="aCharger" within="" contains="" />
+      <constraint name="loadOptionInutile" minCount="0" within="" contains="" />
+      <constraint name="loadOption1" regexp=".*reload.*" within="" contains="" />
+      <constraint name="loadOption0" regexp=".*Setof.*" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="Options de chargement incompatible" uuid="aa39f935-cc2e-3b27-8b7e-7797cde1c929" order="1" text="load($aCharger$, $loadOptionInutile$, $loadOption0$, $loadOptionInutile$, $loadOption1$, $loadOptionInutile$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="aCharger" within="" contains="" />
+      <constraint name="loadOptionInutile" minCount="0" within="" contains="" />
+      <constraint name="loadOption1" regexp=".*withLoadType.*" within="" contains="" />
+      <constraint name="loadOption0" regexp=".*Setof.*" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="Options de chargement incompatible" uuid="aa39f935-cc2e-3b27-8b7e-7797cde1c929" order="3" text="load($aCharger$, $loadOptionInutile$, $loadOption0$, $loadOptionInutile$, $loadOption1$, $loadOptionInutile$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="aCharger" within="" contains="" />
+      <constraint name="loadOptionInutile" minCount="0" within="" contains="" />
+      <constraint name="loadOption1" regexp=".*Setof.*" within="" contains="" />
+      <constraint name="loadOption0" regexp=".*withLoadType.*" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="Options de chargement incompatible" uuid="aa39f935-cc2e-3b27-8b7e-7797cde1c929" order="4" text="load($aCharger$, $loadOptionInutile$, $loadOption0$, $loadOptionInutile$, $loadOption1$, $loadOptionInutile$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="aCharger" within="" contains="" />
+      <constraint name="loadOptionInutile" minCount="0" within="" contains="" />
+      <constraint name="loadOption1" regexp=".*light.*" within="" contains="" />
+      <constraint name="loadOption0" regexp=".*withLoadType.*" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="Options de chargement incompatible" uuid="aa39f935-cc2e-3b27-8b7e-7797cde1c929" order="5" text="load($aCharger$, $loadOptionInutile$, $loadOption0$, $loadOptionInutile$, $loadOption1$, $loadOptionInutile$);" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="aCharger" within="" contains="" />
+      <constraint name="loadOptionInutile" minCount="0" within="" contains="" />
+      <constraint name="loadOption1" regexp=".*withLoadType.*" within="" contains="" />
+      <constraint name="loadOption0" regexp=".*light.*" within="" contains="" />
+    </searchConfiguration>
+  </inspection_tool>
+  <inspection_tool class="aa39f935-cc2e-3b27-8b7e-7797cde1c929" enabled="true" level="ERROR" enabled_by_default="true" />
+</profile>

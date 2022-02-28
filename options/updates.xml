@@ -1,0 +1,11 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <option name="LAST_BUILD_CHECKED" value="IU-213.6777.52" />
+    <option name="LAST_TIME_CHECKED" value="1646037914505" />
+    <pluginHosts>
+      <item value="https://intellij.efluid.uem.lan/efluidPlugins/updatePlugins.xml" />
+    </pluginHosts>
+    <option name="SHOW_WHATS_NEW_EDITOR" value="false" />
+    <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
+  </component>
+</application>
