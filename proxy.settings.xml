@@ -1,8 +1,0 @@
-<application>
-  <component name="HttpConfigurable">
-    <option name="USE_HTTP_PROXY" value="true" />
-    <option name="PROXY_HOST" value="lpsrvpxy" />
-    <option name="PROXY_PORT" value="8080" />
-    <option name="PROXY_EXCEPTIONS" value="*.uem.lan,10.*,172.*,129.9.*;192.168.*,162.70.248.*,78.24.240.193,*.autodesk.com,*.cgiclients.com,*.cginet,*.efluidcgi.net,*.global.logica.com,*.groupe-es.net,*.groupement-sicae.lan,*.linux.dom,*.msftconnecttest.com,*.msftncsi.com,*.noe.edf.fr,*.production.alsen,*.production.gdb,*.recette.alsen,*.recette.caleo,*.recette.gdb;*.regie-sieds.fr,*.rseipc.fr,*.vialis-heb.internal,*.vialis-heb.internall,*crl.usertrust.com,autodiscover.efluid.fr;autodiscover.energem.fr,autodiscover.reseda.fr,autodiscover.uem-metz.fr,autodiscover.urm-metz.fr,cloud.reseda.fr,cloud.uem-metz.fr,cloud.urm-metz.fr,mailserv;vpn.uem-metz.fr,vpnsecours.uem-metz.fr,webmail.uem-metz.fr,wpsrvsusifr1.uem.lan,wpsrvsusifr1,vpnsecurity.uem-metz.fr" />
-  </component>
-</application>
