@@ -1,4 +1,4 @@
-<templateSet group="user">
+<templateSet group="efluid">
   <template name="tododette" value="// @TODO_DETTE[$GRAVITE$][$CHIFFRAGE$][$RISQUE$][$DESCRIPTION$]" description="Ajoute un @TODO_DETTE" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="GRAVITE" expression="enum(&quot;MINEURE&quot;, &quot;MAJEURE&quot;, &quot;CRITIQUE&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="CHIFFRAGE" expression="escapeString(String)" defaultValue="" alwaysStopAt="true" />
@@ -8,7 +8,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="thnew" value="throw new IllegalStateException(CLASSE_NON_INSTANCIABLE);" description="Ajoute un throw new IllegalStateException pour les constructeurs privés d'utilitaire notamment" toReformat="false" toShortenFQNames="true">
+  <template name="thnew2" value="throw new IllegalStateException(CLASSE_NON_INSTANCIABLE);" description="Ajoute un throw new IllegalStateException pour les constructeurs privés d'utilitaire notamment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
